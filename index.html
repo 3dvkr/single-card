@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dvkr Sample Site with menu/services</title>
+    <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="centerCard">
+    <main>
+        <header>
+            <nav>
+                <ul>
+                    <li>
+                        <p>
+                            <a href="#">Demo Link 1</a>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <a href="#">Demo Link 2</a>
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <a href="#">Demo Link 3</a>
+                        </p>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <h1><a href="./index.html">Title</a></h1>
+        <section class="choose">
+            <p> View: 
+                <button class="menuSwitch chosen">Restaurant</button>
+                <button class="menuSwitch">Studio</button>
+            </p>
+        </section>
+        <section class="peruse">
+            <aside class="sidebar">
+            <!-- you can add .hide ^ -->
+                <h3>Some Info/ A Tagline</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor mollitia alias iste totam id quam?</p>
+                <p class="instructions">Tap through our options/ menu. <button class="hideRequest menuSwitch">[Hide me]</button></p>
+            </aside>
+            <section class="options">
+                <article class="optionContainer resto">
+                     <!-- data-aos="fade-in"> -->
+                    <img src="restaurant_1.jpg">
+                    <h3>Here is an option A</h3>
+                    <p>Here is information about the options. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae, consequuntur.</p>
+                </article>
+                <article class="optionContainer resto hide">
+                     <!-- data-aos="fade-in"> -->
+                    <img src="restaurant_3.jpg">
+                    <h3>Here is an option B</h3>
+                    <p>Here is information about the options. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae, consequuntur.</p>
+                </article>
+                <article class="optionContainer resto hide">
+                     <!-- data-aos="fade-in"> -->
+                    <img src="restaurant_2.jpg">
+                    <h3>Here is an option C</h3>
+                    <p>Here is information about the options. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae, consequuntur.</p>
+                </article>
+                <article class="optionContainer resto hide">
+                     <!-- data-aos="fade-in"> -->
+                    <img src="https://picsum.photos/seed/picsum/200/">
+                    <h3>Here is an option D</h3>
+                    <p>Here is information about the options. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae, consequuntur.</p>
+                </article>
+                <article class="optionContainer studio hide">
+                    <!-- data-aos="fade-in"> -->
+                    <img src="art_1.jpg">
+                    <h3>Here is an option E</h3>
+                    <p>Here is information about the options. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae, consequuntur.</p>
+                </article>
+                <article class="optionContainer studio hide" >
+                <!-- data-aos="fade-in"> -->
+                    <img src="art_2.jpg">
+                    <h3>Here is an option F</h3>
+                    <p>Here is information about the options. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae, consequuntur.</p>
+                </article>
+            </section>
+        </section>
+        <footer>
+            <p>Social Media Links go here</p>
+        </footer>
+    </main>
+</div>
+    <script src="main.js"></script>
+    <!-- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            delay: 650
+        });
+      </script> -->
+</body>
+</html>
